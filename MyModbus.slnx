@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="MyModbus.Common/MyModbus.Common.csproj" Id="37db8da8-78a7-4ca8-9ede-144bb9c680d8">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
+  <Project Path="MyModbus.UI/MyModbus.UI.csproj" Id="d528832e-f411-486b-bab0-1be38859b0cd">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
+</Solution>

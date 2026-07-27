@@ -1,0 +1,81 @@
+# 生成/编译目录
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+x64/
+x86/
+AnyCPU/
+ipch/
+*.log
+*.tlog
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.winmd
+*.cache
+*.cs~
+*.vshost.*
+*.vsp
+*.vspscc
+*.vssscc
+
+# Visual Studio 配置缓存
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sdf
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.pubxml.user
+*.webxml
+*.dotCover
+*.ntvs*
+*.njtvs*
+*.vcxproj.user
+
+# 资源/临时文件
+*.bak
+*.tmp
+*.swp
+*~
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# NuGet 包
+packages/
+*.nupkg
+*.snupkg
+
+# 测试、覆盖率
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# 日志、缓存
+*.log
+*.cache
+*.temp
+node_modules/
+npm-debug.log
+
+# 数据库本地文件
+*.mdf
+*.ldf
+*.sdf
+*.sqlite
+*.sqlite3
+
+# 打包输出
+publish/
+dist/
+out/
+Setup/

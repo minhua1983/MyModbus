@@ -377,6 +377,10 @@ namespace MyModbus.Common
             _myLogger.AddLog(LogLevel.Warn, $"_sendTask任务结束");
         }
 
+        /// <summary>
+        /// CAS自旋机制实现TransactionId自增
+        /// </summary>
+        /// <returns></returns>
         ushort GetTransactionId()
         {
             int oldValue;

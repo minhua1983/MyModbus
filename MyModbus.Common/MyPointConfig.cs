@@ -15,8 +15,8 @@ namespace MyModbus.Common
         public int CollectInterval { get; set; } = 1000;
         public DateTime LastCollected { get; set; } = DateTime.Now;
         public Action<T> Callback { get; set; }
-        public T HighShreshold { get; set; }
-        public T LowShreshold { get; set; }
+        public T HighThreshold { get; set; }
+        public T LowThreshold { get; set; }
         public T HighDeadBand { get; set; }
         public T LowDeadBand { get; set; }
         public bool IsNoticed { get; set; } = false;

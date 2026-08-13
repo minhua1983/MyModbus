@@ -303,16 +303,16 @@ namespace MyModbus.Common
         public void CheckNumberValue<T>(MyPointConfig<T> pc, T v) where T : IComparable<T>
         {
             dynamic value = v;
-            dynamic highShreshold = pc.HighShreshold;
-            dynamic lowShreshold = pc.LowShreshold;
+            dynamic highThreshold = pc.HighThreshold;
+            dynamic lowThreshold = pc.LowThreshold;
             dynamic highDeadBand = pc.HighDeadBand;
             dynamic lowDeadBand = pc.LowDeadBand;
 
 
-            var isInvalid = value >= highShreshold
-                || value <= lowShreshold
-                || value >= highShreshold - highDeadBand && pc.IsAlarmed
-                || value <= lowShreshold + lowDeadBand && pc.IsAlarmed;
+            var isInvalid = value >= highThreshold
+                || value <= lowThreshold
+                || value >= highThreshold - highDeadBand && pc.IsAlarmed
+                || value <= lowThreshold + lowDeadBand && pc.IsAlarmed;
 
             if (isInvalid)
             {

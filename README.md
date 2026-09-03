@@ -1,9 +1,9 @@
-# 项目名称：MyModbus Demo
+# 项目名称：MyModbus
 
 ## 1.项目简介
-一个基于winform的自研Modbus-TCP demo。
+一个基于自研Modbus-TCPw的demo。
 
-- 目标：学习Modbus TCP底层通信原理
+- 目标：学习Modbus-TCP底层通信原理
 - 适用场景：学习练习项目
 - 简要说明：从零开始存自研的Modbus-TCP demo
 

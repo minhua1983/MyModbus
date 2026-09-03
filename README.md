@@ -32,14 +32,13 @@
 - 测试工具：Modbus‑Slave 7.5.1
 
 ## 5.快速启动步骤
-2. 用 git clone 命令下载源码到本地
-3. 用VS打开源码中的 MyModbus.slnx
-5. 启动 Modbus‑Slave 打开 resume0.msw
-6. 直接start项目，它会自动启动MyModbus.UI.exe
-
+1. 用 git clone 命令下载源码到本地
+2. 用VS打开源码中的 MyModbus.slnx
+3. 启动 Modbus‑Slave 打开 resume0.msw
+4. 直接start项目，它会自动启动MyModbus.UI.exe
 
 ## 6.关键设计说明
-> 写核心思路，面试重点看这一段
+一开始按新阁教育的教学视频自学Modbus-TCP简单通信，然后按豆包建议，实现了半包、粘包处理、循环切帧、大小字和高低字节处理、TaskCompletionSouce(TCS)的异步等待信号处理、报警、多Task处理发送、接收、持久化、采集等功能。
 
 ### 6.1 通信层
 - 封装了以下数据区域及功能码的访问：
